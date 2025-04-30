@@ -31,8 +31,8 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class BaseClass {
 
-		//public static WebDriver driver;
-	     public WebDriver driver;   //for parallel execution
+		public static WebDriver driver;
+	     //public WebDriver driver;   //for parallel execution
 	
 		public Logger logger;
 		public Properties p;
